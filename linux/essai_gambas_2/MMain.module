@@ -1,0 +1,22 @@
+' Gambas module file
+EXTERN cdetail() AS Pointer IN "./libbib_expeyes_USB0"
+EXTERN cead(n AS Integer) AS Float IN "./libbib_expeyes_USB0"
+EXTERN cnead(n AS Integer) AS Pointer IN "./libbib_expeyes_USB0"
+EXTERN csad(n AS Integer, valeur AS Float) AS Float IN "./libbib_expeyes_USB0"
+
+PUBLIC x AS Integer
+PUBLIC y AS String
+PUBLIC SUB Main()
+PRINT StrPtr(cdetail())
+PRINT "entrez le numéro de l'entrée analogique à lire"
+INPUT x
+PRINT "vous avez entré :"
+PRINT x
+REPEAT
+	PRINT cead(x)
+	PRINT StrPtr(cnead(x))
+	PRINT "entrez la valeur à fixer pour la sortie analogique 2"
+	INPUT y
+	csad(2, y)
+UNTIL Val(y) > 100
+END
