@@ -1,6 +1,6 @@
-mensurasoft
+mensurasoft (en) (fr)
 ===========
-
+(en)
 Drivers of scientific devices for Linux, Windows (and Mac ?)
 
 Mensurasoft is planned to separate programming of device-drivers and  application-programs.
@@ -13,5 +13,19 @@ Pascal
 C/C++
 Python
 MSWLogo
+...
 
+(fr) 
+Pilotes d'appareils scientifiques pour Linux, Windows (et Mac ?)
 
+Mensurasoft est un système pour séparer le programmation des pilotes d'appareils de mesure de celle des programmes d'application.
+Les pilotes des appareils de mesure et des actionneurs sont des bibliothèques dynamiques (.dll de Windows, .so de Linux), programmables avec divers langages : Basic (FreeBasic, PureBasic), Pascal (FreePascal, Lazarus, Delphi...), C/C++...
+
+Les programmes d'application sont programmables avec de nombreux langages : 
+Basic (FreeBasic, PureBasic, Gambas, et autres)
+Pascal
+C/C++
+Python
+MSW Logo
+...
+ 
