@@ -1,0 +1,98 @@
+﻿bbok=Aceptar
+bbhelp=Ayuda
+bbabort=Cancelar
+html=HTML_ES
+
+titreg='Mensurasoft-LZ'  xx
+menufichier=Archivo
+mf_ouvrir=Abrir
+mf_quitter=Terminar
+menureglages=Configuración
+mr_temps=Tiempo
+mr_cadrages=Encuadro
+mr_matprinc=Material principal
+mr_mataux=Material auxiliar
+mr_matsup=Material suplementario
+mr_savariable=Salida analógica variable
+mr_safixe=Salida Analógica fija
+mr_sbin=Salida binaria
+menumesures=Medidas
+mm_acquisition=¡Haz medidas !
+ma_aide=Ayuda
+ma_langue=elección del idioma
+ma_apropos=Acerca de Mensurasoft-LZ
+ma_sauveconfig=Guardar config.
+ma_chargeconfig=Abrir config.
+
+
+//menu de la fenêtre graphique Repère
+mrep_fichiers=Archivo
+mrep_regcsv=Guardar CSV(.,)
+mrep_regpvv=Guardar    (,;)
+mrep_regtabpoint=Guardar (.TAB)
+mrep_regtabvirg=Guardar (,TAB)
+mrep_regcsvsanstitres=Guardar CSV sen títulos
+
+mrep_enjoliver=adornar
+mrep_titregen=título general
+mrep_titreaxex=título en abscisa
+mrep_titreaxep=título eje p
+mrep_titreaxea=título eje a
+
+mrep_clipboard=Portapapeles
+mrep_copietabpoint=copiar los valores numéricos(.TAB)
+mrep_copietabvirg=copiar los valores numéricos(,TAB)
+mrep_copietitretabpoint=Copiar todo(.TAB) 
+mrep_copietitretabvirg=Copiar todo (,TAB)
+mrep_copiegraphique=copiar el gráfico
+mrep_mesures=Medidas
+mrep_stop= ¡alto!
+
+
+// boite de dialogue réglages du temps
+fdialtemps=Arreglos del tiempo
+dt_intervallemesures=intervalo entre medidas (s)
+dt_nombremesures=número de medidas
+dt_intervallebandeau=plazo de visualización (venda)
+
+// boite de dialogue choix du matériel de mesure
+fdialmatp=Material principal 
+fdialmata= Material auxiliar 
+fdialmats=Material suplementario
+lcm_detailpilote=(controlador indisponible)
+dm_choixvoie=elección de la vía de medida  
+dm_boutonpilote=elección del controlador
+dm_boutoncalibration=Calibración
+dm_fonctransf=Función de transformación =f(xP,xA,xS)
+
+
+// boite de dialogue des sorties analogiques fixes
+fsaf=Salidas analógicas fijas
+saf_detailsaf=(controlador indisponible)
+saf_nomsad0=(SAD0)
+saf_nomsad1=(SAD1)
+saf_nomsad2=(SAD2)
+saf_choixpilotesaf=elección del controlador SAF
+
+// boite de dialogue des sorties binaires
+fdialsbin=Salidas binarias
+fbin_labeldetailpilotesbin=(controlador indisponible)
+fbin_labelchoixvoies=Haga muescas en las salidas que deben activarse
+fbin_boutonpilotesbin=elección del controlador
+fbin_cb_sbin0=(salida binaria 0)
+fbin_cb_sbin1=(salida binaria 1)
+fbin_cb_sbin2=(salida binaria 2)
+fbin_cb_sbin3=(salida binaria 3)
+fbin_cb_sbin4=(salida binaria 4)
+fbin_cb_sbin5=(salida binaria 5)
+fbin_cb_sbin6=(salida binaria 6)
+fbin_cb_sbin7=(salida binaria 7)
+
+
+// boite de dialogue de la sortie analogique variable
+fsav=Salida analógica variable
+lsav_detailpilotesav=(controlador indisponible)
+lsav_listesad=Elija la vía
+bsav_choixpilotesav=elección del controlador SAV
+lsav_fonctransav=Función de transformación =f(xP,xA,xS,xT)
+cbsav_priseencompte=¿Consideración?

@@ -1,0 +1,97 @@
+﻿bbok=OK
+bbhelp=Help
+bbabort=Abort
+html=HTML_EN
+
+titreg='Mensurasoft-LZ'
+menufichier=Files
+mf_ouvrir=Open
+mf_quitter=Quit
+menureglages=Settings
+mr_temps=Time
+mr_cadrages=Framework
+mr_matprinc=Primary device
+mr_mataux=Auxiliary device
+mr_matsup=Supplementary device
+mr_savariable=Variable analog output
+mr_safixe=Fixed analog output
+mr_sbin=Binary output
+menumesures=Measurement
+mm_acquisition=launch measurement !
+ma_aide=Help
+ma_langue=Choose language
+ma_apropos=About Mensurasoft-LZ
+ma_sauveconfig=Save config.
+ma_chargeconfig=Load config.
+
+
+//menu de la fenêtre graphique Repère
+mrep_fichiers=Files 
+mrep_regcsv=Save CSV(.,)
+mrep_regpvv=Save    (,;)
+mrep_regtabpoint=Save (.TAB)
+mrep_regtabvirg=Save (,TAB)
+mrep_regcsvsanstitres=Save CSV without titles
+
+mrep_enjoliver=Embellish
+mrep_titregen=General caption
+mrep_titreaxex=X axis caption
+mrep_titreaxep=P axis caption
+mrep_titreaxea=A axis captiob
+
+mrep_clipboard=Clipboard
+mrep_copietabpoint=Copy data (.TAB)
+mrep_copietabvirg=Copy data(,TAB)
+mrep_copietitretabpoint=Copy all(.TAB)
+mrep_copietitretabvirg=Copy all (,TAB)
+mrep_copiegraphique=Copy chart
+mrep_mesures=Measurement
+mrep_stop=Stop ! 
+
+// boite de dialogue réglages du temps
+fdialtemps=Time settings
+dt_intervallemesures=interval between measures (s)
+dt_nombremesures=number of measures
+dt_intervallebandeau=displaying delay (caption)
+
+// boite de dialogue choix du matériel de mesure
+fdialmatp=Primary Device
+fdialmata=Auxiliary device
+fdialmats=Supplementary device
+lcm_detailpilote=(unavailable driver)
+dm_choixvoie=Choose measurement channel
+dm_boutonpilote=Choose driver
+dm_boutoncalibration=Calibration
+dm_fonctransf=Transformation function =f(xP, xA, xS)
+
+
+// boite de dialogue des sorties analogiques fixes
+fsaf=Fixed analog outputs
+saf_detailsaf=(No driver linked)
+saf_nomsad0=(SAD0)
+saf_nomsad1=(SAD1)
+saf_nomsad2=(SAD2)
+saf_choixpilotesaf=Choose driver (fix. an. output)
+
+// boite de dialogue des sorties binaires
+fdialsbin=Binary outputs
+fbin_labeldetailpilotesbin=(driver unavailable)
+fbin_labelchoixvoies=Tick outputs to active
+fbin_boutonpilotesbin=Choose driver for bin. outputs
+fbin_cb_sbin0=(binary output 0)
+fbin_cb_sbin1=(binary output 1)
+fbin_cb_sbin2=(binary output 2)
+fbin_cb_sbin3=(binary output 3)
+fbin_cb_sbin4=(binary output 4)
+fbin_cb_sbin5=(binary output 5)
+fbin_cb_sbin6=(binary output 6)
+fbin_cb_sbin7=(binary output 7)
+
+
+// boite de dialogue de la sortie analogique variable
+fsav=Variable analog output
+lsav_detailpilotesav=(Driver not linked)
+lsav_listesad=Choose channel
+bsav_choixpilotesav=Choose driver (variable an. output)
+lsav_fonctransav=transform functin f(xP,xA,xS,xT)
+cbsav_priseencompte=Take into consideration?

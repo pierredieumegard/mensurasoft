@@ -1,0 +1,97 @@
+﻿bbok=OK
+bbhelp=Aide
+bbabort=Abandonner
+html=HTML_FR
+
+titreg='Mensurasoft-LZ'  xx
+menufichier=FichierXXXXYYYY
+mf_ouvrir=Ouvrir
+mf_quitter=Quitter
+menureglages=Réglages
+mr_temps=Temps
+mr_cadrages=Cadrages
+mr_matprinc=Matériel principal
+mr_mataux=Matériel auxiliaire
+mr_matsup=Matériel supplémentaire
+mr_savariable=Sortie analogique variable
+mr_safixe=Sortie analogique fixe
+mr_sbin=Sortie binaire
+menumesures=Mesures
+mm_acquisition=Fait mesures !
+ma_aide=Aide
+ma_langue=choix de la langue
+ma_apropos=A propos de Mensurasoft-LZ
+ma_sauveconfig=Sauve config.
+ma_chargeconfig=Charge config.
+
+
+//menu de la fenêtre graphique Repère
+mrep_fichiers=Fichiers    x
+mrep_regcsv=Sauver CSV(.,)w
+mrep_regpvv=Sauver    (,;)s
+mrep_regtabpoint=Sauver (.TAB) cwx
+mrep_regtabvirg=Sauver (,TAB)s
+mrep_regcsvsanstitres=Sauver CSV sans titres
+
+mrep_enjoliver=Enjoliver
+mrep_titregen=Titre général
+mrep_titreaxex=Titre axe x
+mrep_titreaxep=titre axe p
+mrep_titreaxea=titre axe a
+
+mrep_clipboard=Presse-papier  s
+mrep_copietabpoint=Copier nombres(.TAB)dd
+mrep_copietabvirg=Copier nombres(,TAB)s
+mrep_copietitretabpoint=Copier tout(.TAB) s
+mrep_copietitretabvirg=Copier tout (,TAB)s
+mrep_copiegraphique=Copier graphique
+mrep_mesures=Mesuress
+mrep_stop=Stop ! s
+
+// boite de dialogue réglages du temps
+fdialtemps=Réglages du temps f
+dt_intervallemesures=intervalle entre mesures (s)f
+dt_nombremesures=nombre de mesures    q
+dt_intervallebandeau=délai d'affichage (bandeau)bb
+
+// boite de dialogue choix du matériel de mesure
+fdialmatp=Matériel principal  x
+fdialmata=Matériel auxiliaire x
+fdialmats=Matériel supplémentaire  x
+lcm_detailpilote=(pilote indisponible) x
+dm_choixvoie=Choix de la voie de mesure x
+dm_boutonpilote=Choix du pilote  x
+dm_boutoncalibration=Calibration x
+dm_fonctransf=Fonction de transformation =f(PAST)x
+
+
+// boite de dialogue des sorties analogiques fixes
+fsaf=Sorties analogiques fixes  h
+saf_detailsaf=(pas de pilote chargé)h
+saf_nomsad0=(SAD0)h
+saf_nomsad1=(SAD1)h
+saf_nomsad2=(SAD2)h
+saf_choixpilotesaf=Choix du pilote SAF  h
+
+// boite de dialogue des sorties binaires
+fdialsbin=Sorties binaires
+fbin_labeldetailpilotesbin=(Pilote sorties binaires indisponible)
+fbin_labelchoixvoies=Cochez les sorties à activer
+fbin_boutonpilotesbin=Choix du pilote sorties binaires
+fbin_cb_sbin0=(sortie binaire 0)
+fbin_cb_sbin1=(sortie binaire 1)
+fbin_cb_sbin2=(sortie binaire 2)
+fbin_cb_sbin3=(sortie binaire 3)
+fbin_cb_sbin4=(sortie binaire 4)
+fbin_cb_sbin5=(sortie binaire 5)
+fbin_cb_sbin6=(sortie binaire 6)
+fbin_cb_sbin7=(sortie binaire 7)
+
+
+// boite de dialogue de la sortie analogique variable
+fsav=Sortie analogique variable
+lsav_detailpilotesav=(Pilote SAV non chargé)
+lsav_listesad=Choisissez la voie
+bsav_choixpilotesav=Choix du pilote SAV
+lsav_fonctransav=Fonction de transformation f(PAST)
+cbsav_priseencompte=Prise en compte ?

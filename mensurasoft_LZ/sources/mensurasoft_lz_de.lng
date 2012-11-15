@@ -1,0 +1,97 @@
+﻿bbok=OK
+bbhelp=Hilfe
+bbabort=Abbrechen
+html=HTML_DE
+
+titreg='Mensurasoft-LZ'  xx
+menufichier=Datei
+mf_ouvrir=Öffnen
+mf_quitter=Beenden
+menureglages=Einstellen
+mr_temps=Zeit
+mr_cadrages=Rahmen 
+mr_matprinc=Eingabe P (Haupt-)
+mr_mataux=Eingabe A (Hilfs-)
+mr_matsup=Eingabe S (Zusatz-)
+mr_savariable=Veränderlicher analoger Ausgabe
+mr_safixe=Fester analoger Ausgabe
+mr_sbin=Binärer Ausgabe
+menumesures=Messung
+mm_acquisition=tun Messung !
+ma_aide=Hilfe
+ma_langue=wählen die Sprache
+ma_apropos=Info über Mensurasoft-LZ
+ma_sauveconfig=speichern die Konfiguration
+ma_chargeconfig=Lesen die Konfiguration
+
+
+//menu de la fenêtre graphique Repère
+mrep_fichiers=Datei
+mrep_regcsv=speichern CSV(.,)
+mrep_regpvv=speichern    (,;)
+mrep_regtabpoint=speichern (.TAB)
+mrep_regtabvirg=speichern (,TAB)
+mrep_regcsvsanstitres=speichern CSV ohne Titel
+
+mrep_enjoliver=verzieren
+mrep_titregen=allgemeiner Titel
+mrep_titreaxex=Titel von Achse X
+mrep_titreaxep=Titel von Achse p
+mrep_titreaxea=Titel von Achse a
+
+mrep_clipboard=Zwischenablage
+mrep_copietabpoint=die Daten kopieren(.TAB)
+mrep_copietabvirg=die Daten kopieren(,TAB)
+mrep_copietitretabpoint=Alles kopieren(.TAB)
+mrep_copietitretabvirg=Alles kopieren (,TAB)
+mrep_copiegraphique=Die grafische Darstellung kopieren
+mrep_mesures=Messung
+mrep_stop=Halt!
+
+// boite de dialogue réglages du temps
+fdialtemps=Einstellungen von Zeit
+dt_intervallemesures=Abstand zwischen Maßnahmen (s)
+dt_nombremesures=Anzahl von den Maßnahmen
+dt_intervallebandeau=Erfrischungsfrist
+
+// boite de dialogue choix du matériel de mesure
+fdialmatp=Eingabe P (Haupt-)
+fdialmata=Eingabe A (Hilfs-)
+fdialmats=Eingabe S (Zusatz-)
+lcm_detailpilote=(nicht verfügbarer Treiber) 
+dm_choixvoie=Auswahl des Maßweges
+dm_boutonpilote=Der Treiber wählen
+dm_boutoncalibration=Kalibrierung
+dm_fonctransf=Funktion für Umwandlung =f(xP,xA,xS)
+
+
+// boite de dialogue des sorties analogiques fixes
+fsaf=feste analoge Ausgänge
+saf_detailsaf=(nicht verfügbarer Treiber)
+saf_nomsad0=(SAD0)
+saf_nomsad1=(SAD1)
+saf_nomsad2=(SAD2)
+saf_choixpilotesaf=Der Treiber wählen SAF 
+
+// boite de dialogue des sorties binaires
+fdialsbin=Binärausgänge
+fbin_labeldetailpilotesbin=(nicht verfügbarer Treiber)
+fbin_labelchoixvoies=ankreuzen Sie alle Ausgänge zu aktivieren
+fbin_boutonpilotesbin=Der Treiber wählen
+fbin_cb_sbin0=(sortie binaire 0)
+fbin_cb_sbin1=(sortie binaire 1)
+fbin_cb_sbin2=(sortie binaire 2)
+fbin_cb_sbin3=(sortie binaire 3)
+fbin_cb_sbin4=(sortie binaire 4)
+fbin_cb_sbin5=(sortie binaire 5)
+fbin_cb_sbin6=(sortie binaire 6)
+fbin_cb_sbin7=(sortie binaire 7)
+
+
+// boite de dialogue de la sortie analogique variable
+fsav=Veränderlicher analoger Ausgabe
+lsav_detailpilotesav=(nicht verfügbarer Treiber)
+lsav_listesad=Auswahl des Weges
+bsav_choixpilotesav=Der Treiber wählen
+lsav_fonctransav=Funktion für Umwandlung =f(xP,xA,xS,xT)
+cbsav_priseencompte=Berücksichtigung?

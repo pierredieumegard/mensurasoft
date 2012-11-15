@@ -1,0 +1,97 @@
+﻿bbok=OK
+bbhelp=Aiuto
+bbabort=Annula
+html=HTML_IT
+
+titreg='Mensurasoft-LZ'  xx
+menufichier=File
+mf_ouvrir=Apri
+mf_quitter=Esci
+menureglages=Opzioni
+mr_temps=Tempo
+mr_cadrages=Inquadratura
+mr_matprinc=Materiale principale
+mr_mataux=Materiale ausiliario
+mr_matsup=materiale supplementare
+mr_savariable=Output variabile analogica
+mr_safixe=Output analogiche fisse
+mr_sbin=Output binarie
+menumesures=Misure	
+mm_acquisition=Comincia le misure !
+ma_aide=Aiuto
+ma_langue=Scegli la lingua
+ma_apropos=Informazioni su Mensurasoft-LZ
+ma_sauveconfig=Salvare la configurazione
+ma_chargeconfig=lettura di una configurazione
+
+
+//menu de la fenêtre graphique Repère
+mrep_fichiers=File
+mrep_regcsv=Salva CSV(.,)
+mrep_regpvv=Salva    (,;)
+mrep_regtabpoint=Salva (.TAB)
+mrep_regtabvirg=Salva (,TAB)
+mrep_regcsvsanstitres=Salva CSV senza titolo
+
+mrep_enjoliver=Abbellire
+mrep_titregen=Titolo generale
+mrep_titreaxex=Titolo del asse x 
+mrep_titreaxep=Titolo del asse P
+mrep_titreaxea=Titolo del asse A
+
+mrep_clipboard=Appunti
+mrep_copietabpoint=copia misure(.TAB)
+mrep_copietabvirg=copia misure (,TAB)
+mrep_copietitretabpoint=Copia tutti(.TAB) 
+mrep_copietitretabvirg=Copia tutti (,TAB)
+mrep_copiegraphique=copia l'immagine
+mrep_mesures=Misure
+mrep_stop=Stop ! 
+
+// boite de dialogue réglages du temps
+fdialtemps=messe a punto temporali
+dt_intervallemesures=intervallo tra misure (s)
+dt_nombremesures=nombre de mesures
+dt_intervallebandeau=Tempo di aggiornamento
+
+// boite de dialogue choix du matériel de mesure
+fdialmatp=Materiale principale
+fdialmata=Materiale ausiliario
+fdialmats=materiale supplementare
+lcm_detailpilote=(Driver non disponibile) 
+dm_choixvoie=Scelta del canale di misura
+dm_boutonpilote=Scelta del driver
+dm_boutoncalibration=calibratura
+dm_fonctransf=Funzione di trasformazione =f(xP,xA,xS)
+
+
+// boite de dialogue des sorties analogiques fixes
+fsaf=Output analogiche fisse
+saf_detailsaf=(Driver non disponibile)
+saf_nomsad0=(SAD0)h
+saf_nomsad1=(SAD1)h
+saf_nomsad2=(SAD2)h
+saf_choixpilotesaf=Scelta del driver
+
+// boite de dialogue des sorties binaires
+fdialsbin=Output binarie
+fbin_labeldetailpilotesbin=(Driver non disponibile)
+fbin_labelchoixvoies=Segnate le uscite ad attivare
+fbin_boutonpilotesbin=Scelta del driver
+fbin_cb_sbin0=(sortie binaire 0)
+fbin_cb_sbin1=(sortie binaire 1)
+fbin_cb_sbin2=(sortie binaire 2)
+fbin_cb_sbin3=(sortie binaire 3)
+fbin_cb_sbin4=(sortie binaire 4)
+fbin_cb_sbin5=(sortie binaire 5)
+fbin_cb_sbin6=(sortie binaire 6)
+fbin_cb_sbin7=(sortie binaire 7)
+
+
+// boite de dialogue de la sortie analogique variable
+fsav=Output variabile analogica
+lsav_detailpilotesav=(Driver non disponibile)
+lsav_listesad=Scelta del canale di output
+bsav_choixpilotesav=Scelta del driver
+lsav_fonctransav=Funzione di trasformazione =f(xP,xA,xS,xT)
+cbsav_priseencompte=presi in considerazione?

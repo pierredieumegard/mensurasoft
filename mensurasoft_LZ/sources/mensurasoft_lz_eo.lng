@@ -1,0 +1,97 @@
+﻿bbok=OK
+bbhelp=Helpu
+bbabort=Rezignu
+html=HTML_EO
+
+titreg='Mensurasoft-LZ'  xx
+menufichier=Dosiero
+mf_ouvrir=Malfermu
+mf_quitter=Eliru
+menureglages=Agordoj
+mr_temps=Tempo
+mr_cadrages=Kadro
+mr_matprinc=Plejgrava materialo
+mr_mataux=Akcesora materialo
+mr_matsup=suplementa materialo
+mr_savariable=variebla analoga eligo
+mr_safixe=Nevariebla analoga eligo
+mr_sbin=duuma eligo
+menumesures=Mezuroj
+mm_acquisition=Mezuru !
+ma_aide=Helpo
+ma_langue=Elektu lingvon
+ma_apropos=Pri Mensurasoft-LZ
+ma_sauveconfig=Registru konfig.
+ma_chargeconfig=Ŝarĝu konfig.
+
+
+//menu de la fenêtre graphique Repère
+mrep_fichiers=Dosieroj
+mrep_regcsv=Registru CSV(.,)
+mrep_regpvv=Registru    (,;)
+mrep_regtabpoint=Registru (.TAB)
+mrep_regtabvirg=Registru (,TAB)
+mrep_regcsvsanstitres=Registru CSV sen titoloj
+
+mrep_enjoliver=Plibeligi
+mrep_titregen=Ĝenerala titolo
+mrep_titreaxex=Titolo x-akso
+mrep_titreaxep=Titolo p-akso
+mrep_titreaxea=Titolo a-akso
+
+mrep_clipboard=Tondujo
+mrep_copietabpoint=Kopiu nombrojn (.TAB)
+mrep_copietabvirg=Kopiu nombrojn(,TAB)
+mrep_copietitretabpoint=Kopiu ĉion (.TAB)
+mrep_copietitretabvirg=Kopiu ĉion (,TAB)
+mrep_copiegraphique=Kopiu bildon
+mrep_mesures=Mezuroj
+mrep_stop=Haltu !
+
+// boite de dialogue réglages du temps
+fdialtemps=Agordoj pri tempo
+dt_intervallemesures=tempo inter mezuroj (s)
+dt_nombremesures=nombro da mezuroj
+dt_intervallebandeau=prokrasto por titolo de fenestro
+
+// boite de dialogue choix du matériel de mesure
+fdialmatp=Plejgrava materialo
+fdialmata=Akcesora materialo
+fdialmats=Suplementa materialo
+lcm_detailpilote=(neuzebla pelilo)
+dm_choixvoie=Elekto de vojo
+dm_boutonpilote=Elektu pelilon
+dm_boutoncalibration=(kalibro)
+dm_fonctransf=Transforma funkcio =f(xP,xA,xS)
+
+
+// boite de dialogue des sorties analogiques fixes
+fsaf=Nevarieblaj analogaj eligoj
+saf_detailsaf=(ne uzebla pelilo)
+saf_nomsad0=(eligo 0)
+saf_nomsad1=(eligo 1)
+saf_nomsad2=(eligo 2)
+saf_choixpilotesaf=Elektu pelilon por eligo
+
+// boite de dialogue des sorties binaires
+fdialsbin=Duumaj eligoj
+fbin_labeldetailpilotesbin=(pelilo por duuma eligo : neuzebla)
+fbin_labelchoixvoies=marku aktivotajn eligojn
+fbin_boutonpilotesbin=Elektu pelilon por duumaj eligoj
+fbin_cb_sbin0=(duuma eligo 0)
+fbin_cb_sbin1=(duuma eligo 1)
+fbin_cb_sbin2=(duuma eligo 2)
+fbin_cb_sbin3=(duuma eligo 3)
+fbin_cb_sbin4=(duuma eligo 4)
+fbin_cb_sbin5=(duuma eligo 5)
+fbin_cb_sbin6=(duuma eligo 6)
+fbin_cb_sbin7=(duuma eligo 7)
+
+
+// boite de dialogue de la sortie analogique variable
+fsav=Variebla analoga eligo
+lsav_detailpilotesav=(ne uzebla pelilo)
+lsav_listesad=Elektu vojon
+bsav_choixpilotesav=Elektu pelilon
+lsav_fonctransav=Transforma funkcio f(xP,xA,xS,xT)
+cbsav_priseencompte=Vere konsideri ?

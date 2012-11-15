@@ -1,0 +1,107 @@
+object f_dialmat: Tf_dialmat
+  Left = 405
+  Height = 300
+  Top = 249
+  Width = 400
+  ActiveControl = dm_boutonpilote
+  Caption = 'choix matériel'
+  ClientHeight = 300
+  ClientWidth = 400
+  LCLVersion = '0.9.28.2'
+  object dm_choixvoie: TLabel
+    Left = 4
+    Height = 16
+    Top = 24
+    Width = 56
+    Caption = 'Choix voie'
+    ParentColor = False
+  end
+  object dm_fonctransf: TLabel
+    Left = 160
+    Height = 16
+    Top = 152
+    Width = 211
+    Caption = 'Fonction de transformation =f(xP,xA,xS)'
+    ParentColor = False
+  end
+  object lcm_detailpilote: TLabel
+    Left = 7
+    Height = 16
+    Top = 8
+    Width = 85
+    Caption = 'lcm_detailpilote'
+    ParentColor = False
+  end
+  object dm_boutonpilote: TButton
+    Left = 248
+    Height = 39
+    Top = 40
+    Width = 129
+    Caption = 'dm_boutonpilote'
+    OnClick = dm_boutonpiloteClick
+    TabOrder = 0
+  end
+  object BitBtn1: TBitBtn
+    Left = 144
+    Height = 32
+    Top = 256
+    Width = 79
+    Caption = '&OK'
+    Default = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = BitBtn1Click
+    TabOrder = 1
+  end
+  object BitBtn2: TBitBtn
+    Left = 224
+    Height = 26
+    Top = 261
+    Width = 74
+    Caption = 'Aide ?'
+    Kind = bkHelp
+    OnClick = BitBtn2Click
+    TabOrder = 2
+  end
+  object BitBtn3: TBitBtn
+    Left = 304
+    Height = 31
+    Top = 256
+    Width = 86
+    Caption = 'Abandonner'
+    Kind = bkAbort
+    ModalResult = 3
+    OnClick = BitBtn3Click
+    TabOrder = 3
+  end
+  object ListBox1: TListBox
+    Left = 0
+    Height = 250
+    Top = 40
+    Width = 144
+    ItemHeight = 0
+    TabOrder = 4
+  end
+  object Editfonction: TEdit
+    Left = 160
+    Height = 23
+    Top = 168
+    Width = 220
+    TabOrder = 5
+    Text = 'z'
+  end
+  object dm_boutoncalibration: TButton
+    Left = 248
+    Height = 57
+    Top = 88
+    Width = 115
+    Caption = 'dm_boutoncalibration'
+    OnClick = dm_boutoncalibrationClick
+    TabOrder = 6
+  end
+  object od_choixpil: TOpenDialog
+    Filter = 'pilote = bib dyn |*.dll'
+    left = 185
+    top = 40
+  end
+end

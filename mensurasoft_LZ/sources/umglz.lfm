@@ -1,0 +1,133 @@
+object Fmglz: TFmglz
+  Left = 360
+  Height = 89
+  Top = 37
+  Width = 475
+  ActiveControl = Button1
+  Caption = 'Fmglz'
+  ClientHeight = 69
+  ClientWidth = 475
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  LCLVersion = '0.9.28.2'
+  object Button1: TButton
+    Left = 61
+    Height = 24
+    Top = 12
+    Width = 56
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 0
+    Visible = False
+  end
+  object MainMenu1: TMainMenu
+    left = 137
+    top = 10
+    object mi_fichier: TMenuItem
+      Caption = 'Fichier'
+      object mi_ouvrir: TMenuItem
+        Caption = 'Ouvrir'
+        OnClick = mi_ouvrirClick
+      end
+      object mi_quitter: TMenuItem
+        Caption = 'Quitter'
+        OnClick = mi_quitterClick
+      end
+    end
+    object mi_Reglages: TMenuItem
+      Caption = 'Réglages'
+      OnClick = mi_ReglagesClick
+      object MI_temporel: TMenuItem
+        Caption = 'Régl. temps'
+        OnClick = MI_temporelClick
+      end
+      object MI_Cadrages: TMenuItem
+        Caption = 'Cadrages'
+        Visible = False
+        OnClick = MI_CadragesClick
+      end
+      object mi_principal: TMenuItem
+        Caption = 'Mat. principal'
+        OnClick = mi_principalClick
+      end
+      object mi_auxiliaire: TMenuItem
+        Caption = 'Mat auxiliaire'
+        OnClick = mi_auxiliaireClick
+      end
+      object mi_supplement: TMenuItem
+        Caption = 'Mat. supplémentaire'
+        OnClick = mi_supplementClick
+      end
+      object mi_sav: TMenuItem
+        Caption = 'sortie analogique variable'
+        OnClick = mi_savClick
+      end
+      object mi_SAF: TMenuItem
+        Caption = 'sortie analogique fixe'
+        OnClick = mi_SAFClick
+      end
+      object mi_sbin: TMenuItem
+        Caption = 'sortie logique fixe'
+        OnClick = mi_sbinClick
+      end
+    end
+    object mi_mesures: TMenuItem
+      Caption = 'mesures'
+      object MI_Faitmesures: TMenuItem
+        Caption = 'Fait mesures'
+        OnClick = MI_FaitmesuresClick
+      end
+    end
+    object MI_interro: TMenuItem
+      Caption = '--?--'
+      OnClick = MI_interroClick
+      object MI_aide: TMenuItem
+        Caption = 'Aide'
+        ShortCut = 112
+        OnClick = MI_aideClick
+      end
+      object MI_choixlangue: TMenuItem
+        Caption = 'Choix langue'
+        OnClick = MI_choixlangueClick
+      end
+      object MI_apropos: TMenuItem
+        Caption = 'A propos'
+        OnClick = MI_aproposClick
+      end
+      object MI_sauveconfig: TMenuItem
+        Caption = 'mi_sauveconfig'
+        OnClick = MI_sauveconfigClick
+      end
+      object MI_chargeconfig: TMenuItem
+        Caption = 'mi_chargeconfig'
+        OnClick = MI_chargeconfigClick
+      end
+    end
+  end
+  object IdleTimer1: TIdleTimer
+    OnTimer = IdleTimer1Timer
+    left = 166
+    top = 65533
+  end
+  object ODchangelangue: TOpenDialog
+    DefaultExt = '.lng'
+    Filter = 'fichier de langue|*.lng'
+    left = 232
+    top = 16
+  end
+  object SDsauveconfig: TSaveDialog
+    Filter = 'configuration|*.cfg'
+    left = 328
+    top = 16
+  end
+  object ODchargeconfig: TOpenDialog
+    Filter = 'configuration *.cfg|*.cfg'
+    left = 16
+    top = 16
+  end
+  object ODlitfichier: TOpenDialog
+    Title = 'Ouvrir un fichier'
+    Filter = 'fichiers textes (*.csv, *.tab, *.txt)|*.csv;*.CSV;*.tab;*.TAB;*.txt;*.TXT'
+    left = 384
+  end
+end

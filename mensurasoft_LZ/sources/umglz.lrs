@@ -1,0 +1,44 @@
+{ Ceci est un fichier ressource généré automatiquement par Lazarus }
+
+LazarusResources.Add('TFmglz','FORMDATA',[
+  'TPF0'#6'TFmglz'#5'Fmglz'#4'Left'#3'h'#1#6'Height'#2'Y'#3'Top'#2'%'#5'Width'#3
+  +#219#1#13'ActiveControl'#7#7'Button1'#7'Caption'#6#5'Fmglz'#12'ClientHeight'
+  +#2'E'#11'ClientWidth'#3#219#1#4'Menu'#7#9'MainMenu1'#8'OnCreate'#7#10'FormCr'
+  +'eate'#10'LCLVersion'#6#8'0.9.28.2'#0#7'TButton'#7'Button1'#4'Left'#2'='#6'H'
+  +'eight'#2#24#3'Top'#2#12#5'Width'#2'8'#7'Caption'#6#7'Button1'#7'OnClick'#7
+  +#12'Button1Click'#8'TabOrder'#2#0#7'Visible'#8#0#0#9'TMainMenu'#9'MainMenu1'
+  +#4'left'#3#137#0#3'top'#2#10#0#9'TMenuItem'#10'mi_fichier'#7'Caption'#6#7'Fi'
+  +'chier'#0#9'TMenuItem'#9'mi_ouvrir'#7'Caption'#6#6'Ouvrir'#7'OnClick'#7#14'm'
+  +'i_ouvrirClick'#0#0#9'TMenuItem'#10'mi_quitter'#7'Caption'#6#7'Quitter'#7'On'
+  +'Click'#7#15'mi_quitterClick'#0#0#0#9'TMenuItem'#11'mi_Reglages'#7'Caption'#6
+  +#9'R'#195#169'glages'#7'OnClick'#7#16'mi_ReglagesClick'#0#9'TMenuItem'#11'MI'
+  +'_temporel'#7'Caption'#6#12'R'#195#169'gl. temps'#7'OnClick'#7#16'MI_tempore'
+  +'lClick'#0#0#9'TMenuItem'#11'MI_Cadrages'#7'Caption'#6#8'Cadrages'#7'Visible'
+  +#8#7'OnClick'#7#16'MI_CadragesClick'#0#0#9'TMenuItem'#12'mi_principal'#7'Cap'
+  +'tion'#6#14'Mat. principal'#7'OnClick'#7#17'mi_principalClick'#0#0#9'TMenuIt'
+  +'em'#13'mi_auxiliaire'#7'Caption'#6#14'Mat auxiliaire'#7'OnClick'#7#18'mi_au'
+  +'xiliaireClick'#0#0#9'TMenuItem'#13'mi_supplement'#7'Caption'#6#20'Mat. supp'
+  +'l'#195#169'mentaire'#7'OnClick'#7#18'mi_supplementClick'#0#0#9'TMenuItem'#6
+  +'mi_sav'#7'Caption'#6#26'sortie analogique variable'#7'OnClick'#7#11'mi_savC'
+  +'lick'#0#0#9'TMenuItem'#6'mi_SAF'#7'Caption'#6#22'sortie analogique fixe'#7
+  +'OnClick'#7#11'mi_SAFClick'#0#0#9'TMenuItem'#7'mi_sbin'#7'Caption'#6#19'sort'
+  +'ie logique fixe'#7'OnClick'#7#12'mi_sbinClick'#0#0#0#9'TMenuItem'#10'mi_mes'
+  +'ures'#7'Caption'#6#7'mesures'#0#9'TMenuItem'#14'MI_Faitmesures'#7'Caption'#6
+  +#12'Fait mesures'#7'OnClick'#7#19'MI_FaitmesuresClick'#0#0#0#9'TMenuItem'#10
+  +'MI_interro'#7'Caption'#6#5'--?--'#7'OnClick'#7#15'MI_interroClick'#0#9'TMen'
+  +'uItem'#7'MI_aide'#7'Caption'#6#4'Aide'#8'ShortCut'#2'p'#7'OnClick'#7#12'MI_'
+  +'aideClick'#0#0#9'TMenuItem'#14'MI_choixlangue'#7'Caption'#6#12'Choix langue'
+  +#7'OnClick'#7#19'MI_choixlangueClick'#0#0#9'TMenuItem'#10'MI_apropos'#7'Capt'
+  +'ion'#6#8'A propos'#7'OnClick'#7#15'MI_aproposClick'#0#0#9'TMenuItem'#14'MI_'
+  +'sauveconfig'#7'Caption'#6#14'mi_sauveconfig'#7'OnClick'#7#19'MI_sauveconfig'
+  +'Click'#0#0#9'TMenuItem'#15'MI_chargeconfig'#7'Caption'#6#15'mi_chargeconfig'
+  +#7'OnClick'#7#20'MI_chargeconfigClick'#0#0#0#0#10'TIdleTimer'#10'IdleTimer1'
+  +#7'OnTimer'#7#15'IdleTimer1Timer'#4'left'#3#166#0#3'top'#4#253#255#0#0#0#0#11
+  +'TOpenDialog'#14'ODchangelangue'#10'DefaultExt'#6#4'.lng'#6'Filter'#6#23'fic'
+  +'hier de langue|*.lng'#4'left'#3#232#0#3'top'#2#16#0#0#11'TSaveDialog'#13'SD'
+  +'sauveconfig'#6'Filter'#6#19'configuration|*.cfg'#4'left'#3'H'#1#3'top'#2#16
+  +#0#0#11'TOpenDialog'#14'ODchargeconfig'#6'Filter'#6#25'configuration *.cfg|*'
+  +'.cfg'#4'left'#2#16#3'top'#2#16#0#0#11'TOpenDialog'#12'ODlitfichier'#5'Title'
+  +#6#17'Ouvrir un fichier'#6'Filter'#6'Ifichiers textes (*.csv, *.tab, *.txt)|'
+  +'*.csv;*.CSV;*.tab;*.TAB;*.txt;*.TXT'#4'left'#3#128#1#0#0#0
+]);

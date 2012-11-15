@@ -1,0 +1,190 @@
+object Frepere: TFrepere
+  Left = 328
+  Height = 319
+  Top = 220
+  Width = 443
+  HelpType = htKeyword
+  ActiveControl = Chart1
+  Caption = 'Frepere'
+  ClientHeight = 299
+  ClientWidth = 443
+  Color = clWhite
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  OnResize = FormResize
+  LCLVersion = '0.9.28.2'
+  object Chart1: TChart
+    Left = 8
+    Height = 272
+    Top = 0
+    Width = 390
+    AxisList = <    
+      item
+        Alignment = calLeft
+        Offset = 0
+        Scale = 1
+        Title.Caption = 'axe gauche'
+        Title.Distance = 0
+        Title.Font.Color = clRed
+        Title.Font.Orientation = 900
+        Title.Visible = True
+      end    
+      item
+        Alignment = calBottom
+        Offset = 0
+        Scale = 1
+        Title.Caption = 'axe x'
+        Title.Visible = True
+      end    
+      item
+        Alignment = calRight
+        Offset = 0
+        Scale = 1
+        Title.Caption = 'axe droit'
+        Title.Distance = 0
+        Title.Font.Orientation = 900
+      end>
+    BackColor = clWhite
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clBlue
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Text.Strings = (
+      'TAChart'
+    )
+    Color = clWhite
+    ParentColor = False
+    object CLSP: TLineSeries
+      Marks.Frame.Color = clRed
+      Marks.LinkPen.Color = clRed
+      Marks.Style = smsCustom
+      Title = 'voie P'
+      LinePen.Color = clRed
+      LinePen.Cosmetic = False
+      OnDrawPointer = CLSPDrawPointer
+      Pointer.Brush.Color = clRed
+      Pointer.HorizSize = 2
+      Pointer.VertSize = 2
+      SeriesColor = clRed
+      ShowPoints = True
+    end
+    object CLSA: TLineSeries
+      Title = 'voie A'
+      LinePen.Color = clGreen
+      LinePen.Width = 2
+      Pointer.Brush.Color = clGreen
+      Pointer.HorizSize = 2
+      Pointer.Style = psCircle
+      Pointer.VertSize = 2
+      SeriesColor = clGreen
+      ShowPoints = True
+    end
+    object CLSS: TLineSeries
+      Title = 'voie S'
+      LinePen.Color = clBlue
+      Pointer.Brush.Color = clBlue
+      Pointer.HorizSize = 2
+      Pointer.Style = psDiamond
+      Pointer.VertSize = 2
+      SeriesColor = clBlue
+      ShowPoints = True
+    end
+  end
+  object Timerrepere: TTimer
+    OnTimer = TimerrepereTimer
+    left = 32
+    top = 4
+  end
+  object MainMenu1: TMainMenu
+    left = 80
+    top = 3
+    object mrep_fichiers: TMenuItem
+      Caption = 'Fichiers'
+      object mrep_regcsv: TMenuItem
+        Caption = 'Enregistrer CSV'
+        OnClick = mrep_regcsvClick
+      end
+      object mrep_regpvv: TMenuItem
+        Caption = 'Enregistrer ; ,'
+        OnClick = mrep_regpvvClick
+      end
+      object mrep_regtabpoint: TMenuItem
+        Caption = 'Enregistrer TAB point'
+        OnClick = mrep_regtabpointClick
+      end
+      object mrep_regtabvirg: TMenuItem
+        Caption = 'Enregistrer tab virgule'
+        OnClick = mrep_regtabvirgClick
+      end
+      object mrep_regcsvsanstitres: TMenuItem
+        Caption = 'mrep_regcsvsanstitres'
+        RadioItem = True
+        OnClick = mrep_regcsvsanstitresClick
+      end
+    end
+    object mrep_enjoliver: TMenuItem
+      Caption = 'Enjoliver'
+      object mrep_titregen: TMenuItem
+        Caption = 'Titre général'
+        OnClick = mrep_titregenClick
+      end
+      object mrep_titreaxex: TMenuItem
+        Caption = 'mrep_titreaxex'
+        OnClick = mrep_titreaxexClick
+      end
+      object mrep_titreaxep: TMenuItem
+        Caption = 'mrep_titreaxep'
+        OnClick = mrep_titreaxepClick
+      end
+      object mrep_titreaxea: TMenuItem
+        Caption = 'mrep_titreaxea'
+        OnClick = mrep_titreaxeaClick
+      end
+    end
+    object mrep_clipboard: TMenuItem
+      Caption = 'Presse-papier'
+      object mrep_copietabpoint: TMenuItem
+        Caption = 'Copier val  tab point'
+        OnClick = mrep_copietabpointClick
+      end
+      object mrep_copietabvirg: TMenuItem
+        Caption = 'copier val  tab virgule'
+        OnClick = mrep_copietabvirgClick
+      end
+      object mrep_copietitretabpoint: TMenuItem
+        Caption = 'Copier tit+val tab point'
+        OnClick = mrep_copietitretabpointClick
+      end
+      object mrep_copietitretabvirg: TMenuItem
+        Caption = 'Copier tit+val tab virgule'
+        OnClick = mrep_copietitretabvirgClick
+      end
+      object mrep__copievirgpointpv: TMenuItem
+        Caption = 'mrep_copievirgpointpv'
+        Visible = False
+        OnClick = mrep__copievirgpointpvClick
+      end
+      object mrep_copiegraphique: TMenuItem
+        Caption = 'mrep_copiegraphique'
+        OnClick = mrep_copiegraphiqueClick
+      end
+    end
+    object mrep_mesures: TMenuItem
+      Caption = 'Mesures'
+      object mrep_stop: TMenuItem
+        Caption = 'stop ?'
+        OnClick = mrep_stopClick
+      end
+    end
+    object mrep_aide: TMenuItem
+      Caption = '--?--'
+      OnClick = mrep_aideClick
+    end
+  end
+  object SDfichier: TSaveDialog
+    DefaultExt = '.csv'
+    Filter = 'Fichier CSV |*.csv|Fichier txt|*.txt'
+    left = 136
+    top = 3
+  end
+end

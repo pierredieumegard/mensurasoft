@@ -1,0 +1,66 @@
+{ Ceci est un fichier ressource généré automatiquement par Lazarus }
+
+LazarusResources.Add('TFrepere','FORMDATA',[
+  'TPF0'#8'TFrepere'#7'Frepere'#4'Left'#3'H'#1#6'Height'#3'?'#1#3'Top'#3#220#0#5
+  +'Width'#3#187#1#8'HelpType'#7#9'htKeyword'#13'ActiveControl'#7#6'Chart1'#7'C'
+  +'aption'#6#7'Frepere'#12'ClientHeight'#3'+'#1#11'ClientWidth'#3#187#1#5'Colo'
+  +'r'#7#7'clWhite'#4'Menu'#7#9'MainMenu1'#8'OnCreate'#7#10'FormCreate'#8'OnRes'
+  +'ize'#7#10'FormResize'#10'LCLVersion'#6#8'0.9.28.2'#0#6'TChart'#6'Chart1'#4
+  +'Left'#2#8#6'Height'#3#16#1#3'Top'#2#0#5'Width'#3#134#1#8'AxisList'#14#1#9'A'
+  +'lignment'#7#7'calLeft'#6'Offset'#5#0#0#0#0#0#0#0#0#0#0#5'Scale'#5#0#0#0#0#0
+  +#0#0#128#255'?'#13'Title.Caption'#6#10'axe gauche'#14'Title.Distance'#2#0#16
+  +'Title.Font.Color'#7#5'clRed'#22'Title.Font.Orientation'#3#132#3#13'Title.Vi'
+  +'sible'#9#0#1#9'Alignment'#7#9'calBottom'#6'Offset'#5#0#0#0#0#0#0#0#0#0#0#5
+  +'Scale'#5#0#0#0#0#0#0#0#128#255'?'#13'Title.Caption'#6#5'axe x'#13'Title.Vis'
+  +'ible'#9#0#1#9'Alignment'#7#8'calRight'#6'Offset'#5#0#0#0#0#0#0#0#0#0#0#5'Sc'
+  +'ale'#5#0#0#0#0#0#0#0#128#255'?'#13'Title.Caption'#6#9'axe droit'#14'Title.D'
+  +'istance'#2#0#22'Title.Font.Orientation'#3#132#3#0#0#9'BackColor'#7#7'clWhit'
+  +'e'#16'Foot.Brush.Color'#7#9'clBtnFace'#15'Foot.Font.Color'#7#6'clBlue'#17'T'
+  +'itle.Brush.Color'#7#9'clBtnFace'#16'Title.Font.Color'#7#6'clBlue'#18'Title.'
+  +'Text.Strings'#1#6#7'TAChart'#0#5'Color'#7#7'clWhite'#11'ParentColor'#8#0#11
+  +'TLineSeries'#4'CLSP'#17'Marks.Frame.Color'#7#5'clRed'#19'Marks.LinkPen.Colo'
+  +'r'#7#5'clRed'#11'Marks.Style'#7#9'smsCustom'#5'Title'#6#6'voie P'#13'LinePe'
+  +'n.Color'#7#5'clRed'#16'LinePen.Cosmetic'#8#13'OnDrawPointer'#7#15'CLSPDrawP'
+  +'ointer'#19'Pointer.Brush.Color'#7#5'clRed'#17'Pointer.HorizSize'#2#2#16'Poi'
+  +'nter.VertSize'#2#2#11'SeriesColor'#7#5'clRed'#10'ShowPoints'#9#0#0#11'TLine'
+  +'Series'#4'CLSA'#5'Title'#6#6'voie A'#13'LinePen.Color'#7#7'clGreen'#13'Line'
+  +'Pen.Width'#2#2#19'Pointer.Brush.Color'#7#7'clGreen'#17'Pointer.HorizSize'#2
+  +#2#13'Pointer.Style'#7#8'psCircle'#16'Pointer.VertSize'#2#2#11'SeriesColor'#7
+  +#7'clGreen'#10'ShowPoints'#9#0#0#11'TLineSeries'#4'CLSS'#5'Title'#6#6'voie S'
+  +#13'LinePen.Color'#7#6'clBlue'#19'Pointer.Brush.Color'#7#6'clBlue'#17'Pointe'
+  +'r.HorizSize'#2#2#13'Pointer.Style'#7#9'psDiamond'#16'Pointer.VertSize'#2#2
+  +#11'SeriesColor'#7#6'clBlue'#10'ShowPoints'#9#0#0#0#6'TTimer'#11'Timerrepere'
+  +#7'OnTimer'#7#16'TimerrepereTimer'#4'left'#2' '#3'top'#2#4#0#0#9'TMainMenu'#9
+  +'MainMenu1'#4'left'#2'P'#3'top'#2#3#0#9'TMenuItem'#13'mrep_fichiers'#7'Capti'
+  +'on'#6#8'Fichiers'#0#9'TMenuItem'#11'mrep_regcsv'#7'Caption'#6#15'Enregistre'
+  +'r CSV'#7'OnClick'#7#16'mrep_regcsvClick'#0#0#9'TMenuItem'#11'mrep_regpvv'#7
+  +'Caption'#6#15'Enregistrer ; ,'#7'OnClick'#7#16'mrep_regpvvClick'#0#0#9'TMen'
+  +'uItem'#16'mrep_regtabpoint'#7'Caption'#6#21'Enregistrer TAB point'#7'OnClic'
+  +'k'#7#21'mrep_regtabpointClick'#0#0#9'TMenuItem'#15'mrep_regtabvirg'#7'Capti'
+  +'on'#6#23'Enregistrer tab virgule'#7'OnClick'#7#20'mrep_regtabvirgClick'#0#0
+  +#9'TMenuItem'#21'mrep_regcsvsanstitres'#7'Caption'#6#21'mrep_regcsvsanstitre'
+  +'s'#9'RadioItem'#9#7'OnClick'#7#26'mrep_regcsvsanstitresClick'#0#0#0#9'TMenu'
+  +'Item'#14'mrep_enjoliver'#7'Caption'#6#9'Enjoliver'#0#9'TMenuItem'#13'mrep_t'
+  +'itregen'#7'Caption'#6#15'Titre g'#195#169'n'#195#169'ral'#7'OnClick'#7#18'm'
+  +'rep_titregenClick'#0#0#9'TMenuItem'#14'mrep_titreaxex'#7'Caption'#6#14'mrep'
+  +'_titreaxex'#7'OnClick'#7#19'mrep_titreaxexClick'#0#0#9'TMenuItem'#14'mrep_t'
+  +'itreaxep'#7'Caption'#6#14'mrep_titreaxep'#7'OnClick'#7#19'mrep_titreaxepCli'
+  +'ck'#0#0#9'TMenuItem'#14'mrep_titreaxea'#7'Caption'#6#14'mrep_titreaxea'#7'O'
+  +'nClick'#7#19'mrep_titreaxeaClick'#0#0#0#9'TMenuItem'#14'mrep_clipboard'#7'C'
+  +'aption'#6#13'Presse-papier'#0#9'TMenuItem'#18'mrep_copietabpoint'#7'Caption'
+  +#6#21'Copier val  tab point'#7'OnClick'#7#23'mrep_copietabpointClick'#0#0#9
+  +'TMenuItem'#17'mrep_copietabvirg'#7'Caption'#6#23'copier val  tab virgule'#7
+  +'OnClick'#7#22'mrep_copietabvirgClick'#0#0#9'TMenuItem'#23'mrep_copietitreta'
+  +'bpoint'#7'Caption'#6#24'Copier tit+val tab point'#7'OnClick'#7#28'mrep_copi'
+  +'etitretabpointClick'#0#0#9'TMenuItem'#22'mrep_copietitretabvirg'#7'Caption'
+  +#6#26'Copier tit+val tab virgule'#7'OnClick'#7#27'mrep_copietitretabvirgClic'
+  +'k'#0#0#9'TMenuItem'#22'mrep__copievirgpointpv'#7'Caption'#6#21'mrep_copievi'
+  +'rgpointpv'#7'Visible'#8#7'OnClick'#7#27'mrep__copievirgpointpvClick'#0#0#9
+  +'TMenuItem'#19'mrep_copiegraphique'#7'Caption'#6#19'mrep_copiegraphique'#7'O'
+  +'nClick'#7#24'mrep_copiegraphiqueClick'#0#0#0#9'TMenuItem'#12'mrep_mesures'#7
+  +'Caption'#6#7'Mesures'#0#9'TMenuItem'#9'mrep_stop'#7'Caption'#6#6'stop ?'#7
+  +'OnClick'#7#14'mrep_stopClick'#0#0#0#9'TMenuItem'#9'mrep_aide'#7'Caption'#6#5
+  +'--?--'#7'OnClick'#7#14'mrep_aideClick'#0#0#0#11'TSaveDialog'#9'SDfichier'#10
+  +'DefaultExt'#6#4'.csv'#6'Filter'#6'$Fichier CSV |*.csv|Fichier txt|*.txt'#4
+  +'left'#3#136#0#3'top'#2#3#0#0#0
+]);
