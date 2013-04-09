@@ -1,0 +1,166 @@
+object Form1: TForm1
+  Left = 466
+  Height = 400
+  Top = 239
+  Width = 682
+  ActiveControl = Bchargepilote
+  Caption = 'Oscapture (Mensurasoft)'
+  ClientHeight = 400
+  ClientWidth = 682
+  OnResize = FormResize
+  LCLVersion = '0.9.28.2'
+  object labelnbmesures: TLabel
+    Left = 509
+    Height = 18
+    Top = 160
+    Width = 144
+    Caption = 'Nombre de mesures ?'
+    ParentColor = False
+  end
+  object Labelintervalle: TLabel
+    Left = 512
+    Height = 18
+    Top = 216
+    Width = 92
+    Caption = 'intervalle (µs)'
+    ParentColor = False
+  end
+  object Bchargepilote: TButton
+    Left = 499
+    Height = 32
+    Top = 11
+    Width = 147
+    Caption = 'Charger pilote'
+    OnClick = BchargepiloteClick
+    TabOrder = 0
+  end
+  object ListBox1: TListBox
+    Left = 504
+    Height = 81
+    Top = 40
+    Width = 142
+    ItemHeight = 0
+    OnClick = ListBox1Click
+    OnDblClick = ListBox1DblClick
+    TabOrder = 1
+    TopIndex = -1
+  end
+  object bcapture: TButton
+    Left = 496
+    Height = 26
+    Top = 288
+    Width = 157
+    Caption = 'Capture ?'
+    OnClick = bcaptureClick
+    TabOrder = 2
+  end
+  object SEnbmesures: TSpinEdit
+    Left = 512
+    Height = 27
+    Top = 128
+    Width = 84
+    Increment = 10
+    MaxValue = 1000
+    MinValue = 10
+    OnChange = SEnbmesuresChange
+    TabOrder = 3
+    Value = 100
+  end
+  object SEintervalle: TSpinEdit
+    Left = 512
+    Height = 27
+    Top = 184
+    Width = 101
+    Increment = 10
+    MaxValue = 5000
+    MinValue = 10
+    TabOrder = 4
+    Value = 400
+  end
+  object bsauve: TButton
+    Left = 496
+    Height = 32
+    Top = 340
+    Width = 160
+    Caption = 'Sauve dans fichier'
+    OnClick = bsauveClick
+    TabOrder = 5
+  end
+  object bcopie: TButton
+    Left = 497
+    Height = 33
+    Top = 368
+    Width = 159
+    Caption = 'copie presse-papier'
+    OnClick = bcopieClick
+    TabOrder = 6
+  end
+  object CBcapturecontinue: TCheckBox
+    Left = 497
+    Height = 22
+    Top = 320
+    Width = 144
+    Caption = 'capture continue ?'
+    TabOrder = 7
+  end
+  object Chart1: TChart
+    Left = 0
+    Height = 396
+    Top = 0
+    Width = 472
+    AxisList = <    
+      item
+        Alignment = calLeft
+        Offset = 0
+        Scale = 1
+        Title.Font.Orientation = 900
+      end    
+      item
+        Alignment = calBottom
+        Offset = 0
+        Scale = 1
+      end>
+    BackColor = clWhite
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clBlue
+    GraphBrush.Color = clRed
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Text.Strings = (
+      'TAChart'
+    )
+    Color = clWhite
+    ParentColor = False
+    object Chart1LineSeries1: TLineSeries
+      SeriesColor = clBlack
+    end
+  end
+  object BBaide: TBitBtn
+    Left = 600
+    Height = 23
+    Top = 132
+    Width = 72
+    Caption = '&Aide'
+    Kind = bkHelp
+    OnClick = BBaideClick
+    TabOrder = 9
+  end
+  object ODchargebibdyn: TOpenDialog
+    OnShow = ODchargebibdynShow
+    DefaultExt = '.dll'
+    Filter = 'bibliothèques dynamiques dll|*.dll'
+    left = 80
+    top = 32
+  end
+  object IdleTimer1: TIdleTimer
+    OnTimer = IdleTimer1Timer
+    left = 184
+    top = 40
+  end
+  object SDsauvefichier: TSaveDialog
+    DefaultExt = '.csv'
+    Filter = 'format csv|*.csv'
+    left = 292
+    top = 38
+  end
+end
